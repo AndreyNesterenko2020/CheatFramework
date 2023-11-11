@@ -226,6 +226,8 @@ CheatFramework.init = function () {
 //Custom stuff here!
 CheatFramework.setupValues = function() {
   //theme colors, names, version number, etc
+
+  //fall back to default otherwise
   CheatFramework.UI.builder.defaultColors();
 }
 CheatFramework.onTick = function() {
